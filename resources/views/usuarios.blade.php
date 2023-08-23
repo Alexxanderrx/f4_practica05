@@ -29,24 +29,24 @@
                 <div class="flex flex-col w-[45%] gap-3">
                     <label class="text-[#5d6266] font-semibold" for="nombre">Nombre</label>
                     <input class="border border-zinc-400 p-2" id="nombre" name="nombre" type="text"
-                        placeholder="Ingrese el nombre">
+                        placeholder="Ingrese el nombre" required>
                 </div>
                 <div class="flex flex-col w-[45%] gap-3">
                     <label class="text-[#5d6266] font-semibold" for="apellido">Apellido</label>
                     <input class="border border-zinc-400 p-2" id="apellido" name="apellido" type="text"
-                        placeholder="Ingrese el apellido">
+                        placeholder="Ingrese el apellido" required>
                 </div>
             </div>
 
             <div class="flex flex-col gap-3">
                 <label class="text-[#5d6266] font-semibold" for="correo">E-mail</label>
                 <input class="border border-zinc-400 p-2" id="correo" name="correo" type="email"
-                    placeholder="Ingrese el E-mail">
+                    placeholder="Ingrese el E-mail" required>
             </div>
             <div class="flex flex-col w-[45%] gap-3">
                 <label class="text-[#5d6266] font-semibold" for="contrasena">Contraseña</label>
                 <input class="border border-zinc-400 p-2 truncate" id="contrasena" name="contrasena" type="password"
-                    placeholder="Ingrese la Contraseña">
+                    placeholder="Ingrese la Contraseña" required>
             </div>
             <div class="flex justify-center w-full">
                 <button class="bg-[#004c6c] py-2 w-64 rounded-md text-white" type="submit">Guardar</button>
